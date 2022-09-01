@@ -1,0 +1,98 @@
+
+       @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Noto+Serif:wght@700&family=Open+Sans:wght@300;800&family=Paytone+One&family=Water+Brush&display=swap');
+
+        .whole{
+            display: flex;
+            font-family: 'Paytone One', sans-serif;
+
+            color: aliceblue;
+            height: 5vh;
+        }
+        .logo img{
+            padding: 0 10px;
+            height: 40px
+        }
+        .sbar input{
+            padding: 0 10px;
+            background-color: rgb(133, 133, 133);
+            border: 2px solid rgb(133, 133, 133);
+            border-radius: 30px;
+            width: 40vw;
+            height: 100%;
+
+        }
+        .tbox{
+            margin: 0 20px;
+            display: flex;
+            align-items: center;
+        }
+        .ex a{
+            color: #767676;
+            padding: 0 10px;
+            text-decoration: none;
+            font-size: larger;
+            /* font-weight: bold; */
+            /* position: relative;
+            top: 10px; */
+        }
+        .ad a{
+            color: #767676;
+            padding: 0 10px;
+            text-decoration: none;
+            font-size: larger;
+            /* font-weight: bold; */
+            /* position: relative;
+            top: 10px; */
+        }
+        .blog a{
+            color: #767676;
+            padding: 0 10px;
+            text-decoration: none;
+            font-size: larger;
+            /* font-weight: bold; */
+            /* position: relative;
+            top: 10px; */
+        }
+        .blank{
+            background-color: #d1d1d1;
+            content: "";
+            height: 32px;
+            width: 1px;
+        
+        }
+        .login{
+            margin: 0 12px;
+            display: flex;
+            align-items: center;
+            font-size: large;
+
+        }
+        .login a{
+            color: #767676;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: large;
+        }
+        .container{
+            margin: 80px;
+            display: grid;
+            /* align-items: start; */
+            grid-template-columns: auto auto auto;
+            grid-column-gap: 20px;
+        }
+        .box1{
+            display: grid;
+            grid-template-columns: auto;
+           grid-row-gap: 20px;
+        }
+        .box2{
+            display: grid;
+            grid-template-columns: auto;
+            grid-row-gap: 20px;
+        }
+        .box3{
+            display: grid;
+            grid-template-columns: auto;
+            grid-row-gap: 20px ;
+        }
+            
